@@ -1,13 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
-@import url("https://websfont.github.io/gmarket/gmarket.css");
+// @import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquareNeo@1.0/nanumsquareneo.css);
+// @import url("https://websfont.github.io/gmarket/gmarket.css");
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
 
 .mont {
   font-family: "Montserrat";
 }
 .nanum {
-  font-family: "nanumSquareNeo";
+  font-family: "NanumSquareNeo";
 }
 .gmarket {
-  font-family: "gmarket";
+  font-family: "GMarketSans";
 }
