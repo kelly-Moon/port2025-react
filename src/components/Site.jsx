@@ -56,7 +56,7 @@ const Site = () => {
         </h2>
         <div className="site__wrap">
           {siteText.map((site, key) => (
-            <article className={`site__item ${key + 1}`} key={key}>
+            <article className={`site__item s${key + 1}`} key={key}>
               <span className="num">{key + 1}.</span>
               <div className="text">
                 <div>{site.text[0]}</div>
